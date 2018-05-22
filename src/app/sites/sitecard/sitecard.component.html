@@ -1,0 +1,22 @@
+<div id="card">
+  <!--
+  <img src="../../../images/finca1.jpg">
+  -->
+  <img src="{{this.site.getListImages()[0]}}">
+  <div class="info">
+    <div class="title">
+      <label>{{this.site.getName()}}</label>
+    </div>
+    <div class="content">
+      <div class="details">
+        <p>Capacidad: {{this.site.getMaxCapacity()}}</p>
+        <p>Lugar: {{this.site.getLocation()}}</p>
+        <p>Costo: {{this.site.getCost()}}</p>
+        <p>Moneda: {{this.site.getCoin()}}</p>
+      </div>
+      <div class="button">
+        <button class="show">></button>
+      </div>
+    </div>
+  </div>
+</div>

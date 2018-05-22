@@ -1,0 +1,18 @@
+#home {
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#bar {
+    width: 100%;
+    background-color: rgb(222, 123, 34);
+}
+
+#bar img {
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+}
+
